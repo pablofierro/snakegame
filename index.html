@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Classic Snake Game</title>
+
+        <style type="text/css">
+            * {
+                padding: 0px;
+                margin: 0px;
+            }
+            body {
+                background: #011C31;
+                text-align: center;
+                font-family: "HelveticaNeue", "Helvetica", Arial;
+                color: white;
+                padding: 20px;
+            }
+            h1 {
+                font-weight: normal;
+                padding: 25px 0 20px 0;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            canvas {
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            #score {
+                width: 600px;
+                text-align: left;
+                margin: 0px auto;
+                font-size: 14px;
+                padding-bottom: 20px;
+                font-weight: bold;
+            }
+            #score span {
+                font-weight: normal;
+            }
+            small {
+                display: block;
+            }
+            .author {
+                width: 600px;
+                margin: 0px auto;
+                text-align: right;
+                font-size: 11px;
+                color: white;
+                opacity: 0.5;
+                padding: 8px 0;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="score">Score: <span>0</span></div>
+        <canvas id="game" width="600" height="380"></canvas>
+        <div class="author">by <a href="http://pablofierro.me/">pablofierro.me</a></div>
+
+        <script src="snake.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
